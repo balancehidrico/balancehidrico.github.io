@@ -45,7 +45,6 @@
 
 import math
 import pandas as pd
-import plotly.express as px
 
 
 # ## Datos de suelo
@@ -175,7 +174,7 @@ meses
 # In[11]:
 
 
-px.line(meses, x="mes", y=meses.columns[[1,2,3,4,5,6,9,10,11,12,13,14]])
+meses.plot(kind='line', x='mes', y=meses.columns[[1,2,3,4,5,6,9,10,11,12,13,14]], figsize=(15,7)).legend(loc='upper left')
 
 
 # ## Referencias bibliográficas
