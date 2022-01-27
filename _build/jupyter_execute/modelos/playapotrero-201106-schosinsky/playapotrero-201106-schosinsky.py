@@ -175,9 +175,7 @@ meses
 # In[11]:
 
 
-fig = px.line(meses, x="mes", y=meses.columns[[1,2,3,4,5,6,9,10,11,12,13,14]])
-
-fig.show()
+px.line(meses, x="mes", y=meses.columns[[1,2,3,4,5,6,9,10,11,12,13,14]])
 
 
 # ## Referencias bibliográficas
