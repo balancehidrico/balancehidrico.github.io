@@ -6,4 +6,4 @@ root: index
 parts:
   - caption: Modelos
     chapters:
-    - file: modelos/playapotrero-201106-schosinsky
+    - file: modelos/playapotrero-201106-schosinsky/playapotrero-201106-schosinsky
