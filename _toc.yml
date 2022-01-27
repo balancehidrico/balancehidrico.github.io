@@ -3,6 +3,7 @@
 
 format: jb-book
 root: index
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+  - caption: Modelos
+    chapters:
+    - file: modelos/playapotrero-201106-schosinsky
