@@ -81,8 +81,8 @@ $ ghp-import -n -p -f _build/html
 
 ### 4. Transformaciones de datos
 
+**Precipitación**
 ```shell
-# Precipitación
 gdalwarp -t_srs EPSG:5367 01_PPT.tif 01_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 02_PPT.tif 02_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 03_PPT.TIF 03_PPT_5367.tif
@@ -95,4 +95,20 @@ gdalwarp -t_srs EPSG:5367 09_PPT.tif 09_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 10_PPT.tif 10_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 11_PPT.tif 11_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 12_PPT.tif 12_PPT_5367.tif
+```
+
+**Evapotranspiración**
+```shell
+gdalwarp -t_srs EPSG:5367 01_EP.tif 01_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 02_EP.tif 02_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 03_EP.TIF 03_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 04_EP.TIF 04_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 05_EP.tif 05_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 06_EP.tif 06_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 07_EP.tif 07_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 08_EP.tif 08_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 09_EP.tif 09_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 10_EP.tif 10_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 11_EP.tif 11_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 12_EP.tif 12_EP_5367.tif
 ```
