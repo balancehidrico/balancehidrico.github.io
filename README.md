@@ -85,8 +85,8 @@ $ ghp-import -n -p -f _build/html
 # Precipitación
 gdalwarp -t_srs EPSG:5367 01_PPT.tif 01_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 02_PPT.tif 02_PPT_5367.tif
-gdalwarp -t_srs EPSG:5367 03_PPT.tif 03_PPT_5367.tif
-gdalwarp -t_srs EPSG:5367 04_PPT.tif 04_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 03_PPT.TIF 03_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 04_PPT.TIF 04_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 05_PPT.tif 05_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 06_PPT.tif 06_PPT_5367.tif
 gdalwarp -t_srs EPSG:5367 07_PPT.tif 07_PPT_5367.tif
