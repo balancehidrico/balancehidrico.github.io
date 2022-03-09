@@ -78,3 +78,21 @@ $ git push
 # Aplicación de cambios en el branch gh-pages
 $ ghp-import -n -p -f _build/html
 ```
+
+### 4. Transformaciones de datos
+
+```shell
+# Precipitación
+gdalwarp -t_srs EPSG:5367 01_PPT.tif 01_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 02_PPT.tif 02_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 03_PPT.tif 03_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 04_PPT.tif 04_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 05_PPT.tif 05_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 06_PPT.tif 06_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 07_PPT.tif 07_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 08_PPT.tif 08_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 09_PPT.tif 09_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 10_PPT.tif 10_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 11_PPT.tif 11_PPT_5367.tif
+gdalwarp -t_srs EPSG:5367 12_PPT.tif 12_PPT_5367.tif
+```
