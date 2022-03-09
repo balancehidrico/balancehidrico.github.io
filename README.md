@@ -101,8 +101,8 @@ gdalwarp -t_srs EPSG:5367 12_PPT.tif 12_PPT_5367.tif
 ```shell
 gdalwarp -t_srs EPSG:5367 01_EP.tif 01_EP_5367.tif
 gdalwarp -t_srs EPSG:5367 02_EP.tif 02_EP_5367.tif
-gdalwarp -t_srs EPSG:5367 03_EP.TIF 03_EP_5367.tif
-gdalwarp -t_srs EPSG:5367 04_EP.TIF 04_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 03_EP.tif 03_EP_5367.tif
+gdalwarp -t_srs EPSG:5367 04_EP.tif 04_EP_5367.tif
 gdalwarp -t_srs EPSG:5367 05_EP.tif 05_EP_5367.tif
 gdalwarp -t_srs EPSG:5367 06_EP.tif 06_EP_5367.tif
 gdalwarp -t_srs EPSG:5367 07_EP.tif 07_EP_5367.tif
